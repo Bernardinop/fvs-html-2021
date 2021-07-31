@@ -98,10 +98,28 @@ footer a{
 /*Selectot por atributo*/
 
 #contenido form{
+    text-align: center;
     border: 5px solid blue;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 20px;
+}
+
+#contenidoCon form{
+    text-align: center;
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#contenidoCon{
+    border: 2px solid #FDCC00;
+    padding: 10px;
+}
+
+#contenidoCon table{
+    margin: auto;
 }
 
 #contenido form *{
@@ -109,6 +127,8 @@ footer a{
 }
 
 input[type="text"], select{
+    text-align: center;
+    margin-top: 5px;
     margin-bottom: 15px;
     padding: 10px;
     width: 300px;
